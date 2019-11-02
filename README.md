@@ -10,6 +10,7 @@
 #### 七、[导航菜单](#menu)
 #### 八、[Redux-saga状态共享](#sagas)
 #### 九、[结尾](#ending)
+#### 十、[Github链接](#link)
 ****
 
 ## <a name="features">一、技术栈</a>
@@ -343,5 +344,12 @@ export function * caseSagas() {
 ## <a name="ending">九、结尾</a>
 整个项目其实是已经开发完毕的，唯一的遗憾是API请求无法开发，只能提供参考。
 以下我会附一个Github的源码，包括设计稿，拿着UI看源码就不那么费劲了。如果遇到同模块能引用的，it`s my pleasure~~~
+
+后期抽时间再把这篇博客完善一下，免得太过简洁。
+
+***
+## <a name="link">十、Github链接</a>
+
+https://github.com/zengxiaozeng/react-flowing-gold
 
 ***
