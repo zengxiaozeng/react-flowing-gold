@@ -1,0 +1,162 @@
+.case-main-content {
+    .v-top-case-edit {
+        >section {
+            >button {
+                cursor: pointer;
+                height: 32px;
+                line-height: 32px;
+                color: #fff;
+                border-radius: 5px;
+                padding: 0 6px;
+                border-color: transparent;
+                &:nth-child(1) {
+                    background-color: rgba(0,0,0,0.20) !important;
+                    margin-right: 6px !important;
+                }
+                &:nth-child(2) {
+                    background-color: #C89F64 !important;
+                    margin-right: 6px;
+                    &.no-save-btn {
+                        background-color: rgba(0, 0, 0, 0.2) !important;
+                        &:hover {
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                &:nth-child(3) {
+                    background-color: #F96275 !important;
+                }
+            }
+            .ant-btn:hover, .ant-btn:focus {
+                border-color: transparent;
+            }
+            button[ant-click-animating-without-extra-node]:after {
+                border: 0 none;
+                opacity: 0;
+                animation:none 0 ease 0 1 normal;
+            }
+        }
+    }
+    >.ant-row >.ant-col-16 {
+        background-color: #fff;
+        height: 584px;
+        border-radius: 5px;
+        .add-case-btn {
+            margin: 23px 0 10px 26px;
+        }
+    }
+    .case-supplement-form {
+        .ant-form-item-required::before {
+            display: none;
+        }
+        .ant-form-item-label {
+            text-align: left;
+        }
+    }
+    .ant-form-item {
+        margin-bottom: 8px;
+        height: 48px;
+        .ant-form-item-required::before {
+            display: none;
+        }
+        .ant-form-item-label {
+            text-align: left;
+            line-height: 48px;
+        }
+        .ant-form-item-control {
+            line-height: 48px;
+            .ant-input {
+                height: 48px;
+                border-radius: 5px;
+                //border: 1px solid rgba(235,238,245,1);
+            }
+        }
+    }
+    .edit-container {
+        border-top: 1px solid #eef1f7;
+        padding-top: 20px;
+        >section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            >span {
+                width: 46%;
+                color: #212121;
+                font-size: 14px;
+                line-height: 48px;
+            }
+            >input {
+                border-radius: 5px;
+                border: 1px solid rgba(235,238,245,1);
+                height: 48px;
+                line-height: 48px;
+            }
+            .ant-input:focus {
+                box-shadow: none;
+            }
+        }
+    }
+    .empty-detail {
+        margin-top: 50px;
+        text-align: center;
+        >img {
+            width: 150px;
+            height: 150px;
+        }
+        >p {
+            border: 0!important;
+            display: block!important;
+            color: #9E9E9E!important;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    .v-mains-edit {
+        margin-top: 24px;
+        max-height: 500px;
+        padding-bottom: 20px;
+        overflow-y: scroll;
+        >div {
+            &:first-child {
+                >h4 {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 0;
+                    >span {
+                        &:nth-child(2) {
+                            cursor: pointer;
+                            color: #3F85EB;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                .ant-row {
+                    height: 48px;
+                    line-height: 48px;
+                    border-bottom: 1px solid #eef1f7;
+                }
+                >h4 {
+                    margin-bottom: 0;
+                }
+                .ant-col-16 {
+                    text-align: right;
+                }
+            }
+            >h4 {
+                line-height: 22px;
+                border-bottom: 1px solid #eef1f7;
+                font-size: 12px;
+                color: #C89F64;
+                margin-bottom: 20px;
+                margin-top: 32px;
+            }
+        }
+    }
+}
+.draft-main-content {
+    .ant-table {
+        min-height: 435px!important;
+    }
+}

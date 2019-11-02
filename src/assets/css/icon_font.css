@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_1436190_bi244aj8cjc.eot?t=1569466346200'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1436190_bi244aj8cjc.eot?t=1569466346200#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANcAAsAAAAABzQAAAMQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqCIIIjATYCJAMMCwgABCAFhG0HOxtmBsiemjxBAhZFARYUUCI+ogio/X578s2BBkk00sSnkzxUKFk8NDqh4iUxhIKH/v7X7vubwQLM6RfitwfJvNlxJl9QCaAGO6EEO1a/AQLMzCcgwPj/XE5vBZRF8zc4lzkmH/UCjAMKaG9skxVI6A1jF7TE8wTUjSmBtvpGTIAYmTktIByZhgIxmYgss3xVUK5YmyHcklXjxvgEwE3w/fAHVcWAqJTAnLu9Xh06Ln2UxRUFMzyEdDoX2CYS5oFM2KnMbBMFRhXVM5JxsK1hgU/5f8Gn5NmErdIi4a+za5tgGmYjn5KjcWlSuE4ECZQ9Qm4fOEGUoecmcZCYn5C2ePOtU0dzPXs24cWLSejw3Zk78cqmkxn2ntp8Jrt995M3nUaoXFTrhhUnU3wvX05+/nyiyojULytVE7OipkEHHk68+zx+83v/y8ed51QHP7P8n3/k6dLl/++XXWWmQtjvUP7z08+q25Xck+Q01+Ca5F3tnseDmeLkG2EkpSORElEhDN1I7inOJ6O9fbsNlQIWwj1vJE+Af40jUcjjVDnCDs4W54jBwei5sQqfO7zvHPoYiBPi3w6Pun6Oho/ahiYNi35TIE34GsAcgEI6llYEudP+lP8bfuNt+Z+H2cktv6rxEsDH5YGvMFzI0N2meqLewEuXdmzJmh7WZkXiSAxfsngTrggUcb8iM9D3YbhuuHOKoJqRMogqRiGpGkczZR5KGhagrGoV6ub0b24YYEQhxwKz1gIIui5A1PYCSddTNFPeQ8mIH1DWTYS6ndL3bJjMjOtmROFEx+pCbGqeS207jwvrxxFjrq2wtDygTyIsNOO4sqwin+8nLmFTLAjnGVWcU0yZ5+A+cBmxbQ/7zBsiGi+LcO43lZfTqjeVaZ4DcTYxhIIjdJhqIcyk8bio15mLK3x+HMIwl03BGkhVwUkIJmT2jlUqU9EB7de4nUi3ck1oHkMVjqMwivE4sD4wirDZPJhfPWoIoeHKRAakfE3KrXa0q6ZseZ3zfrugztwzBQGJSIJ8bDpK3ELPNSJzHdMzAwA=') format('woff2'),
+    url('//at.alicdn.com/t/font_1436190_bi244aj8cjc.woff?t=1569466346200') format('woff'),
+    url('//at.alicdn.com/t/font_1436190_bi244aj8cjc.ttf?t=1569466346200') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1436190_bi244aj8cjc.svg?t=1569466346200#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon-font {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconmima:before {
+    content: "\e604";
+}
+
+.iconyonghuming:before {
+    content: "\e605";
+}
